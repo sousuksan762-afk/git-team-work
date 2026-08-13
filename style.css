@@ -43,6 +43,9 @@ body {
     z-index: 100;
 }
 
+.logo img{
+    border-radius: 50%;
+}
 .logo {
     font-size: 22px;
     font-weight: 700;
