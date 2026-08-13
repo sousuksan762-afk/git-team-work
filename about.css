@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height:120vh;
+    background-color: #2D6EE8;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #003366;
+}
+
+header h2 {
+    color: white;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+}
+
+li {
+    color: darkblue;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.active:hover {
+    background-color: white;
+    color: darkblue;
+}
+
+main {
+    display: flex;
+    background-color:cornflowerblue ;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    background-color: cornflowerblue;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    line-height: 2;
+    height: 300px;
+}
+
+.hero h1,
+p {
+    color: white;
+}
+
+.hero button {
+    border-radius: 5px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.hero .btn:hover {
+    background-color: #2D6EE8;
+}
+
+.courses {
+    width: 205%;
+    display: flex;
+    background-color: cornsilk;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 15%;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.card p {
+    color: black;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 15px;
+    width: 700px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 650px;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+div {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+textarea {
+    width: 650px;
+    height: 80px;
+    margin: 10px 0;
+}
+
+.btn[type="submit"] {
+    width: 650px;
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
